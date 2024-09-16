@@ -11,7 +11,7 @@ const Proyectos = () => {
         <section id="proyectos" className="py-20 bg-white">
             <div className="container mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-12">Proyectos Realizados</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {proyectos.map((proyecto, index) => (
                         <div key={index} className="relative">
                             <img src={proyecto.img} alt={proyecto.titulo} className="w-full h-64 object-cover rounded-lg shadow-lg" />
