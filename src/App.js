@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Servicios from './components/Servicios';
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
+import WhatsAppButton from './components/WhatsAppButton';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Servicios />
         <Proyectos />
         <Contacto />
+        <WhatsAppButton />
       </main>
     </div>
   );
